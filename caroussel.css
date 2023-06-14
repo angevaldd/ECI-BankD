@@ -1,0 +1,131 @@
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  .mr-3 {
+    margin-right: 3rem;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(36, 232, 95, 0.1);
+    border: solid rgba(14, 181, 50, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(22, 156, 33, 0.1), inset 0 .125em .5em rgba(17, 146, 45, 0.15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  .carousel-caption{
+    background-color: rgba(18, 115, 83, 0.514);
+  }
+  .navbar-expand-md {
+    background-color: rgba(7, 74, 52, 0.514);
+
+  }
+  .center {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10%;
+    width: 100%;
+  }
+  .container-footer{
+    background-color: rgba(18, 115, 83, 0.514);
+  }
+  .row{
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+  .container marketing {
+    background-color: rgb(120, 190, 169);
+
+  }
+  about{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10%;
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+  .btn-secondary-lts{
+    background-color: #03A5D9;
+  }
+  .btn-primary{
+    background-color: #03A5D9;
+    border: #03A5D9;
+  }
+  .btn-secondary{
+    background-color: rgb(120, 190, 169);
+    border:rgb(120, 190, 169) ;
+  }
+  .d-flex {
+  height: 20%;
+  }
+  .form-container {
+     margin-right: 30%;
+     margin-left: 30%;
+
+  }
+  .form-group{
+    margin-right: 30%;
+    margin-left: 30%;
+  }
+  .form-check{
+    margin-right: 30%;
+    margin-left: 30%;
+  }
+
+  .submit{
+    text-align: center;
+  }
+  .prenom-form-group{
+    margin-right: 30%;
+    margin-left: 30%;
+  }
+  .nom-form-group{
+    margin-right: 30%;
+    margin-left: 30%;
+  }
+  .btn-primary{
+    margin-right: 30%;
+    margin-left: 30%;
+  }
+  

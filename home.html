@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ECI-BankD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+    
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    
+ </head>
+ <body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" 
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" 
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+      <header data-bs-theme="dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            <img src="images\Embleme.png.png" width="60" height="60" class="d-inline-block align-text-top mr-3">
+            <a class="navbar-brand" href="#">ECI-BankD</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Agences.html">Agences</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Clients.html">Clients</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Employes.html">Employes</a>
+                </li>
+                <!--li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Comptes.html">Comptes</a>
+                </li-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="operationsDropdown" role="button" 
+                  data-bs-toggle="dropdown" aria-expanded="false">Comptes</a>
+
+                  <ul class="dropdown-menu" aria-labelledby="operationsDropdown">
+                    <li><a class="dropdown-item" href="nouveauCompte.html">Nouveau</a></li>
+                    <li><a class="dropdown-item" href="">Liste</a></li>
+                    <li><a class="dropdown-item" href="">Type Compte</a></li>
+                     <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="">Consultation</a></li>
+                    <li><a class="dropdown-item" href="">Solde de compte</a></li>
+                    <li><a class="dropdown-item" href="">Releve de compte</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="operationsDropdown" role="button" 
+                  data-bs-toggle="dropdown" aria-expanded="false">Operations</a>
+
+                  <ul class="dropdown-menu" aria-labelledby="operationsDropdown">
+                    
+                    <li><a class="dropdown-item" href="depot.html">Depôt</a></li>
+                    <li><a class="dropdown-item" href="retrait.html">Retrait</a></li>
+                    <li><a class="dropdown-item" href="virement.html">Virement</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="paiement.html">Paiement</a></li>
+                    <li><a class="dropdown-item" href="Transfert.html">Transfert</a></li>
+                  </ul>
+                </li>
+
+                
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="recherche.html">Recherches</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Administration.html">Administration</a>
+                </li>
+                <li>
+                  <a class="nav-link active" aria-current="page" href="Connexion.html">Connexion</a>
+                </li>
+                <li>
+                  <a class="nav-link active" aria-current="page" href="Inscription.html">Inscription</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Recherche</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      
+      
+    
+      
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+             <img class="bd-placeholder-img" width="100%" height="0%" src="images\bureau1.png">
+              <div class="container">
+                <div class="carousel-caption text-start">
+                  <h1>ECI-BankD.</h1>
+                  <p>Avec vous partout !</p>
+                  <p><a class="btn btn-lg btn-success" href="#">Inscivez vous aujourd'hui</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="bd-placeholder-img" width="100%" height="0%" src="images\bureau3.png">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>ECI-BankD.</h1>
+                  <p>Consultez nos offres.</p>
+                  <p><a class="btn btn-lg btn-success" href="#">Apprendre davantages</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="bd-placeholder-img" width="100%" height="0%" src="images\bureau4.png">
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <h1>ECI-BankD.</h1>
+                  <p>Un service efficace .</p>
+                  <p><a class="btn btn-lg btn-success" href="#">Explorez nos services</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  
+      </header>
+
+
+      <body>
+        <article class="my-3" id="card">
+          
+          <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-x3-0 mb-x3-2">
+          </div>
+          
+          <div class="card-group">
+            <div class="card">
+       
+              <div class="card-body">
+                <h5 class="card-title">Ouverture de compte</h5>
+                <p class="card-text">Vous effectuez votre premier versement. Une fois votre compte ouvert, vous recevez votre carte Visa chez vous.</p>
+                  <a href="#" class="btn btn-success">Cliquez ici</a>
+                <p class="card-text"><small class="text-body-secondary">Derniere mise à jour il 'y a 3 min</small></p>
+              </div>
+            </div>
+            <div class="card">
+              
+              <div class="card-body">
+                <h5 class="card-title">Envoi des pièces justificatives</h5>
+                <p class="card-text">Rien de plus simple ! Une photo depuis votre smartphone à télécharger quand vous voulez !.</p>
+                <a href="#" class="btn btn-success">Cliquez ici</a>
+                <p class="card-text"><small class="text-body-secondary">Derniere mise à jour il 'y a 3 min</small></p>
+              </div>
+            </div>
+            <div class="card">
+              
+              <div class="card-body">
+                <h5 class="card-title">Signature électronique</h5>
+                <p class="card-text">Avec la signature en ligne, vous saisissez un code confidentiel reçu par sms et le tour est joué !.</p>
+                   <a href="#" class="btn btn-success">Cliquez ici</a>
+                <p class="card-text"><small class="text-body-secondary">Derniere mise à jour il 'y a 3 min</small></p>
+              </div>
+            </div>
+          </div>
+        </article>
+        
+       
+      </body>
+      
+
+      
+
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Agences</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Clients</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Employes</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Comptes</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Operations</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Recherche</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Administration</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Agences</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Clients</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Employes</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Comptes</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Operations</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Recherche</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Administration</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Agences</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Clients</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Employes</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Comptes</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Operations</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Recherche</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Administration</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Souscrivez à notre newletters</h5>
+                <p>Resumés mensuels et nouveautés.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Adresse Email</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-success" type="button">Souscrire</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex  flex-sm-row justify-content-between py-4 my-4 border-top">
+            
+            <p><img src="images\Embleme.png.png" width="50" height="50"> &copy; 2023 Compagnie, ECI-BankD Inc. Tous droits réservés.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+
+      
+      
+   
+
+
+ </body>
+
+
+
+
+</html>

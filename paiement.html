@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Paiement</title>
+  <link rel="stylesheet" type="text/css" href="paiement.css">
+  <script src="paiement.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Paiement</h2>
+    <form id="payment-form" action="paiement.php" method="post">
+      <label for="accountNumber">Numéro de compte :</label>
+      <input type="text" id="accountNumber" name="accountNumber" required>
+
+      <label for="amount">Montant :</label>
+      <input type="number" id="amount" name="amount" step="0.01" required>
+
+      <input type="submit" value="Effectuer le paiement">
+    </form>
+  </div>
+</body>
+</html>

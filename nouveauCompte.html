@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Accueil</title>
+  <link rel="stylesheet" type="text/css" href="nouveauCompte.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Accueil</h2>
+    <button onclick="redirectToAccountType('new')">Nouveau client</button>
+    <button onclick="redirectToAccountType('existing')">Client existant</button>
+  </div>
+
+  <script>
+    function redirectToAccountType(type) {
+      if (type === 'new') {
+        window.location.href = 'CreationCompte.html';
+      } else if (type === 'existing') {
+        window.location.href = 'connexion.html';
+      }
+    }
+  </script>
+</body>
+</html>
